@@ -1,0 +1,23 @@
+# -*- mode: snippet -*-
+# name: normtmp
+# key: normtmp
+# --
+\documentclass[$1]{$2}
+
+$3
+
+\begin{document}
+
+\title{$4}
+\author{$5}
+\date{$6}
+
+\maketitle
+
+\tableofcontents
+\listoffigures
+\listoftables
+
+$0
+
+\end{document}

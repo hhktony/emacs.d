@@ -1,0 +1,19 @@
+# -*- mode: snippet -*-
+# name: pelicanpost
+# expand-env: ((yas/indent-line 'fixed) (yas/wrap-around-region 'nil))
+# key: ppost
+# --
+${1:$(make-string (string-width text) ?\=)}
+${1:Titile}
+${1:$(make-string (string-width text) ?\=)}
+
+:date: $2
+:author: ${3:butbueatiful}
+:category: $4
+:tags: $5
+:lang: ${6:cn}
+:slug: $7
+:summary: $8
+:status: ${9:draft}
+
+$0

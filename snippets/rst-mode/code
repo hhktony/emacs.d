@@ -1,0 +1,6 @@
+# -*- mode: rst -*-
+# contributor : butbueatiful <butbueatiful@gmail.com>
+# name : Inline code
+# key : code
+# --
+:code:\`$1\` $0

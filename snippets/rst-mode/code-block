@@ -1,0 +1,11 @@
+# -*- mode: rst -*-
+# contributor : butbueatiful <butbueatiful@gmail.com>
+# name : code-block
+# expand-env : ((yas/indent-line 'fixed) (yas/wrap-around-region 'nil))
+# key : codeblock
+# --
+.. code-block:: ${1:lexer}
+
+   ${2:code goes here}
+
+$0

@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name : Snippet header
+# contributor : butbueatiful<butbueatiful@gmail.com>
+# key: head
+# --
+# -*- mode: $1 -*-
+# contributor : ${2:butbueatiful <butbueatiful@gmail.com>}
+# name : $3
+# key : $4${5:
+# keybinding : ${6:keybinding}}${7:
+# expand-env : ${8:((yas/indent-line 'fixed) (yas/wrap-around-region 'nil))}}
+# key : $9
+# --
+$0

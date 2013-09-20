@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# contributor : butbueatiful <butbueatiful@gmail.com>
+# name : Subsection title
+# key : ssec
+# expand-env : ((yas/indent-line 'fixed) (yas/wrap-around-region 'nil))
+# --
+${1:SubsectionName}
+${1:$(make-string (string-width text) ?^)}
+
+$0

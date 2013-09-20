@@ -1,0 +1,5 @@
+# name : ${n: ... }
+# contributor : butbueatiful <butbueatiful@gmail.com>
+# key : $f
+# --
+\${${1:field num}:${2:default value}}$0

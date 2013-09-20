@@ -1,0 +1,16 @@
+# contributor: butbueatiful<butbueatiful@gmail.com>
+# name: pelicanpost
+# key: ppost
+# expand-env: ((yas/indent-line 'fixed) (yas/wrap-around-region 'nil))
+# --
+Title: $1
+Date: $2
+Author: ${3:butbueatiful}
+Category: $4
+Tags: $5
+Lang: ${6:cn}
+Slug: $7
+Summary: $8
+Status: ${9:draft}
+
+$0

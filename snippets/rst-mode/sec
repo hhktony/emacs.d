@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# contributor : butbueatiful <butbueatiful@gmail.com>
+# name : Section title
+# key : sec
+# expand-env : ((yas/indent-line 'fixed) (yas/wrap-around-region 'nil))
+# key : sec
+# --
+${1:SectionName}
+${1:$(make-string (string-width text) ?\-)}
+
+$0

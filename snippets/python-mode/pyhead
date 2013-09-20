@@ -1,0 +1,8 @@
+# -*- mode: snippet-mode -*-
+# contributor : butbueatiful <butbueatiful@gmail.com>
+# name : python head
+# key : pyhead
+# --
+#! /usr/bin/env python
+# -*- coding: ${1:utf-8} -*-
+$0

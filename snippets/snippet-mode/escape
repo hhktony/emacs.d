@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor : butbueatiful <butbueatiful@gmail.com>
+# name : escape oprator
+# key : escape
+# --
+\\$0

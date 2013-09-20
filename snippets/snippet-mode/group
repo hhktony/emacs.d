@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: # meta : $1
+# key: meta
+# --
+# ${1:group} : ${2:GUI-sub-menu-1}
+$0
