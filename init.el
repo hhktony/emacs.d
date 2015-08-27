@@ -1,16 +1,16 @@
 ;;; init.el --- Load configs for specific features and modes
 
-;;; butbueatiful's Emacs Configuration
-;;; Website : http://butbueatiful.github.io
-;;; Contact : butbueatiful@gmail.com
+;;; hhktony's Emacs Configuration
+;;; Website : http://hhktony.github.io
+;;; Contact : hhktony@gmail.com
 ;;;
 ;;; ~/.emacs.d/init.el
 
 ;;; Commentary:
 
 ;;; Code:
-(setq user-full-name "xutao")
-(setq user-mail-address "butbueatiful@gmail.com")
+(setq user-full-name "TonyXu")
+(setq user-mail-address "hhktony@gmail.com")
 
 ;;----------------------------------------------------------------------------
 ;; Load Emacs elisp path
@@ -37,7 +37,7 @@
 (require 'init-auto-complete)
 (require 'init-programming)
 (require 'init-cc-mode)
-(require 'init-doxymacs)
+;; (require 'init-doxymacs)
 (require 'init-misc)
 (require 'init-markdown)
 (require 'init-whitespace)

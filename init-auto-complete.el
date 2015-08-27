@@ -46,6 +46,6 @@
 (defun my-ac-config ()  
     (add-hook 'c-mode-common-hook 'my-ac-cc-mode-setup))
 
-(my-ac-config)  
+(my-ac-config)
 (provide 'init-auto-complete)
 ;;; init-auto-complete.el ends here

@@ -24,12 +24,14 @@
     '(;; local sources
         ; el-get
         session
+        ; helm
         smex
+        undo-tree
         yasnippet
         auto-complete
         auto-complete-yasnippet
         clang-complete-async
-        doxymacs
+        ; doxymacs
         ; auctex
         emacs-w3m
         markdown-mode

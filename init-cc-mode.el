@@ -32,7 +32,6 @@
 )
 (add-hook 'c-mode-common-hook 'my-c-mode-common-hook)
 
-;;;; 我的C++语言编辑策略
 (defun my-c++-mode-hook()
   (setq tab-width 4 indent-tabs-mode nil)
   (c-set-style "stroustrup")
